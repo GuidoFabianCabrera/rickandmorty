@@ -1,0 +1,39 @@
+.characterCards__container {
+  padding: 81px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(36, 40, 47);
+}
+
+/* Loadin Animation */
+
+.rotate {
+  -webkit-animation: spin 1.9s linear infinite;
+  -moz-animation: spin 1.9s linear infinite;
+  animation: spin 1.9s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+  .characterCards__container {
+    padding: 27px;
+  }
+}

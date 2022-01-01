@@ -1,0 +1,32 @@
+.help {
+  /* margin: 46px auto 0 auto; */
+  margin-top: 46px;
+}
+
+.help__info {
+  max-width: 960px;
+  margin: 0 auto 60px auto;
+  padding: 0px 27px;
+}
+
+.help__title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.help__text {
+  font-size: 18px;
+}
+
+.help__subTitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.help__btn {
+  width: 200px;
+}
